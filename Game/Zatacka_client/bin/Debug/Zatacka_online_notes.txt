@@ -1,0 +1,18 @@
+0.6 Már majdnem működnek az alapvető dolgok
+	X szakadozik ott is a vonal más játékosoknál, ahol nem kéne
+
+0.7 Elvileg az alapvető dolgok működnek
+	- mindenki látja a másikat, merre megy
+	- mindenki tud mozogni
+	- szaggatott vonalat húzunk
+
+0.8 (terv) + lövedékek, pontok, több meccs egymás után
+	- +1 pont a szakadásokon átmenetelkor
+
+0.9 (terv) + játékmódok, felszedhető dolgok
+	- öröklődő, fal nélküli, rendes
+	- végtelen lövedék, csak nagy lövedék, nincs felszedhető dolgok
+
+1.0 (terv) + rendes Zatacka online
+	- Kiválasztható színek, gombok
+	- Kezdőképernyő

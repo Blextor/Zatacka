@@ -1,0 +1,26 @@
+0.7 Elvileg az alapvető dolgok működnek, a hálózat feláll
+	- mindenki látja a másikat, merre megy
+	- mindenki tud mozogni
+	- szaggatott vonalat húzunk
+
+Jelenlegi (0.7.8)
+	- Törékeny a rendszer, a felcsatlakozás és a hálózat építése és bontása még épphogy csak működik
+	- A játékosok néha szakadozó vonalat húznak indokolatlanul		
+	- Kliens oldalon történik a játék, szerver csak adatokat továbbít a kliensek között
+	- A szerver indítását követően bárki felcsatlakozhat
+	- Az első felcsatlakozó után a többieknek csak 10 másodpercük van, hogy csatlakozzanak, utána elindul a játék
+	- A szerver IP-jét beállítani csak a kliens .exe újra Build-elésével lehetséges csak	
+	- Még mehetnek egymásba a játékosok párhuzamosan, az ütközéseket érdemes jobban ellenőrizni
+
+0.7.9 (terv)
+	- A szerver IP-jét a kliensen belül lehessen megadni, ne kelljen újra Build-elni
+	- A hálózatot kellőképpen megfontoltan kell felépíteni
+	- A játékot a szervernek kellene ellenőriznie
+	- Hálózat adta problémákat ki kell küszöbölni
+
+0.8 (terv) + lövedékek, pontok, több meccs egymás után
+	- +1 pont a szakadásokon átmenetelkor
+	- öröklődő, fal nélküli, rendes játékmód
+	- végtelen lövedék, csak nagy lövedék, nincs felszedhető dolog beállítások
+	- Kiválasztható színek, gombok
+	- Kezdőképernyő

@@ -1,0 +1,64 @@
+# depslib dependency file v1.0
+1602632011 source:c:\users\boldizsar\desktop\c++\zatacka_server\main.cpp
+	"Network.h"
+
+1602630799 c:\users\boldizsar\desktop\c++\zatacka_server\network.h
+	<WinSock2.h>
+	<WS2tcpip.h>
+	<system_error>
+	<string>
+	<iostream>
+	<iterator>
+	<algorithm>
+	<vector>
+	<math.h>
+	<stdlib.h>
+	<time.h>
+	<thread>
+	<utility>
+
+1602371539 source:c:\users\boldizsar\desktop\c++\zatacka_server\network.cpp
+	"Network.h"
+
+1602371539 source:c:\users\boldizsar\desktop\c++\zatacka_client_logic\zatacka_server\network.cpp
+	"Network.h"
+
+1602630799 c:\users\boldizsar\desktop\c++\zatacka_client_logic\zatacka_server\network.h
+	<WinSock2.h>
+	<WS2tcpip.h>
+	<system_error>
+	<string>
+	<iostream>
+	<iterator>
+	<algorithm>
+	<vector>
+	<math.h>
+	<stdlib.h>
+	<time.h>
+	<thread>
+	<utility>
+
+1602770995 source:c:\users\boldizsar\desktop\c++\zatacka_client_logic\zatacka_server\main.cpp
+	"Network.h"
+
+1602770995 source:c:\users\sajat\desktop\volture\zatacka_client_logic\zatacka_server\main.cpp
+	"Network.h"
+
+1602630799 c:\users\sajat\desktop\volture\zatacka_client_logic\zatacka_server\network.h
+	<WinSock2.h>
+	<WS2tcpip.h>
+	<system_error>
+	<string>
+	<iostream>
+	<iterator>
+	<algorithm>
+	<vector>
+	<math.h>
+	<stdlib.h>
+	<time.h>
+	<thread>
+	<utility>
+
+1602371539 source:c:\users\sajat\desktop\volture\zatacka_client_logic\zatacka_server\network.cpp
+	"Network.h"
+

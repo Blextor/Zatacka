@@ -1,0 +1,40 @@
+szerver üzenete:
+
+kliens üzenete:
+
+
+K: "Ac"
+	Ha [state] waiting_players
+Sz: "A[jatekos_id][x][y][angle][alive=true]a
+	Különben
+Sz: "E"
+
+#----
+
+K: "Av"
+	Ha [state] waiting_players
+Sz: "Aw"
+	Ha [state] warmup
+Sz: "B[warmup_sec][player_count](player_count)*([x][y][angle])"
+
+#----
+
+K: "B"
+	Ha [state] warmup
+Sz: "B[warmup_sec][player_count](player_count)*([x][y][angle])"
+	Ha [state] start
+Sz: "C0[player_count](player_count)*([x][y][angle])"
+
+#---- 2. eset
+
+1.eset
+K: "D[jatekos_id][W][E][SPACE][alive]"
+2.eset
+K: "D[jatekos_id][W][E][SPACE][alive][x][y][angle][points][bullet_type]"
+	Ha [state] game 
+1. eset
+Sz: "D(player_count)*([W][E][SPACE][alive][bullet_type])"
+2. eset
+Sz: "D(player_count)*([W][E][SPACE][alive][bullet_type][x][y][angle][points])"
+
+
